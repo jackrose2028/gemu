@@ -1,54 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>Links – EmulatorJS</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <meta name="theme-color" content="#111418">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="EmulatorJS">
-    <meta name="format-detection" content="telephone=no">
-    <link rel="icon" href="docs/favicon.ico" sizes="16x16 32x32 48x48 64x64" type="image/vnd.microsoft.icon">
-    <link rel="manifest" href="manifest.webmanifest">
-    <link rel="stylesheet" href="assets/app.css">
-</head>
-<body>
-    <main id="menu" class="links-page">
-        <header>
-            <a class="button" href="index.html">&#8592; Home</a>
-            <h1>Links</h1>
-            <p class="muted">Every part of this site. Everything runs from this site's own files.</p>
-        </header>
-
-        <section class="card">
-            <h2>Players</h2>
-            <ul class="link-list">
-                <li><a href="index.html"><strong>EmulatorJS home</strong></a><span>Drop a ROM, recent games, game library folders, engine choice (EmulatorJSMod or NostalgistMod) and options.</span></li>
-                <li><a href="play.html"><strong>Game library in the player</strong></a><span>Every ROM and zip in data/A2600, GB, GBC, GG, NES, SNES and N64, one click to play.</span></li>
-                <li><a href="obsoletemod/"><strong>ObsoleteMod</strong> (Emu retro shelf)</a><span>Seven-system game shelf with ten library views, folder/ZIP/ROM import, ROM asset export, touch controls and its own emulator settings. Runs on this site's EmulatorJSMod engine and cores.</span></li>
-            </ul>
-        </section>
-
-        <section class="card">
-            <h2>ObsoleteMod pages</h2>
-            <ul class="link-list">
-                <li><a href="obsoletemod/config.html"><strong>Emulator configuration</strong></a><span>Video filter (Super Eagle by default), audio, input, saves and per-system overrides for ObsoleteMod.</span></li>
-                <li><a href="obsoletemod/links.html"><strong>ROM links</strong></a><span>ObsoleteMod's reference page of external ROM collections.</span></li>
-                <li><a href="obsoletemod/README.md"><strong>ObsoleteMod readme</strong></a><span>How its library, ROM folders and manifest work.</span></li>
-            </ul>
-        </section>
-
-        <section class="card">
-            <h2>Documents</h2>
-            <ul class="link-list">
-                <li><a href="ENHANCEMENTS.txt" target="_blank" rel="noopener"><strong>What's changed from the original EmulatorJS</strong></a><span>Every enhancement and change, with the addenda.</span></li>
-                <li><a href="README.md"><strong>README</strong></a><span>Running the site, adding games and cores, publishing on GitHub Pages.</span></li>
-                <li><a href="reference.html"><strong>Reference docs</strong></a><span>One explained page for every file in the project (what it is, how it works, why it exists, what uses it), with a project overview, an asset index, a ROM evaluation and a filter to find any file.</span></li>
-            </ul>
-        </section>
-    </main>
-    <script type="module">import { initDevice } from "./assets/mobile.js"; initDevice();</script>
-</body>
-</html>
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#101311"><link rel="icon" href="data:,"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet"><title>ROM Links</title><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="links.css"></head>
+<body><div class="page-shell"><header class="topbar"><a class="brand" href="./" aria-label="Emu home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>Emu</span></a><nav class="links-header-actions" aria-label="Site links"><a class="import-trigger header-page-link" href="./">LIBRARY</a><a class="play-home-link" href="https://jackrose2028.github.io/play">↖ <span>BACK TO PLAY</span></a></nav></header><main class="links-main"><div class="links-eyebrow">REFERENCE LINKS</div><h1>ROM Links</h1><div class="link-groups">
+<section class="link-group"><h2>Players</h2><a href="emulatorjs/index.html">EmulatorJS <span>↗</span></a><a href="./">Emu library <span>↗</span></a></section>
+<section class="link-group"><h2>Collections</h2><a href="https://archive.org/download/no-intro_romset_collection" target="_blank" rel="noopener noreferrer">No-Intro ROMset collection <span>↗</span></a></section>
+<section class="link-group"><h2>Sega Game Gear</h2><a href="https://archive.org/details/sega-game-gear-romset-ultra-us" target="_blank" rel="noopener noreferrer">Sega Game Gear ROMset Ultra (US) <span>↗</span></a><a href="https://archive.org/details/cylums-sega-game-gear-collection" target="_blank" rel="noopener noreferrer">Cylum’s Sega Game Gear collection <span>↗</span></a></section>
+<section class="link-group"><h2>Atari 2600</h2><a href="https://archive.org/details/a2600_romhunter" target="_blank" rel="noopener noreferrer">A2600 ROM Hunter <span>↗</span></a><a href="https://archive.org/download/nointro.atari-2600" target="_blank" rel="noopener noreferrer">No-Intro Atari 2600 <span>↗</span></a><a href="https://archive.org/details/cylums-atari-2600-rom-collection" target="_blank" rel="noopener noreferrer">Cylum’s Atari 2600 collection <span>↗</span></a><a href="https://archive.org/details/atari-2600-romset" target="_blank" rel="noopener noreferrer">Atari 2600 ROMset <span>↗</span></a></section>
+<section class="link-group"><h2>Nintendo 64</h2><a href="https://archive.org/download/N64ROMsPACK" target="_blank" rel="noopener noreferrer">N64 ROMs pack (download) <span>↗</span></a><a href="https://archive.org/details/20240601_20240601_1408" target="_blank" rel="noopener noreferrer">N64 collection (2024) <span>↗</span></a><a href="https://archive.org/details/N64ROMsPACK" target="_blank" rel="noopener noreferrer">N64 ROMs pack (details) <span>↗</span></a></section>
+<section class="link-group"><h2>Game Boy / Color</h2><a href="https://archive.org/download/GameBoyColor" target="_blank" rel="noopener noreferrer">Game Boy Color collection <span>↗</span></a><a href="https://archive.org/download/game-boy-and-game-boy-color-complete-collection" target="_blank" rel="noopener noreferrer">Game Boy + Game Boy Color collection <span>↗</span></a></section>
+<section class="link-group"><h2>Nintendo Entertainment System</h2><a href="https://archive.org/download/best-nes-games" target="_blank" rel="noopener noreferrer">Best NES games <span>↗</span></a><a href="https://archive.org/download/NES-Nointro" target="_blank" rel="noopener noreferrer">NES No-Intro <span>↗</span></a><a href="https://archive.org/details/NESMegaPack201808" target="_blank" rel="noopener noreferrer">NES Mega Pack (2018) <span>↗</span></a></section>
+<section class="link-group"><h2>Super Nintendo</h2><a href="https://archive.org/details/snes-usa-romset-complete-collection.-7z_202104" target="_blank" rel="noopener noreferrer">SNES USA complete collection <span>↗</span></a><a href="https://archive.org/details/gameplay-snes" target="_blank" rel="noopener noreferrer">Gameplay SNES collection (details) <span>↗</span></a><a href="https://archive.org/download/gameplay-snes" target="_blank" rel="noopener noreferrer">Gameplay SNES collection (download) <span>↗</span></a><a href="https://archive.org/download/FullSnes" target="_blank" rel="noopener noreferrer">Full SNES collection <span>↗</span></a></section>
+</div></main></div></body></html>
